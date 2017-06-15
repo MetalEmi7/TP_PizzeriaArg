@@ -1,0 +1,13 @@
+<body>
+
+    <form>
+      <b>Nombre</b><br>
+      <input type="text"      name="nombre"     [(ngModel)]="form.nombre" ><br>
+
+      <b>Contraseña</b><br>
+      <input type="password"  name="pass"       [(ngModel)]="form.pass"><br><br>
+
+      <input type="submit"    name="submit"     (click)="Login()" value="Log in">
+    </form>  
+ 
+</body>
